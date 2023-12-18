@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import axios from 'axios';
 import NewItem from './components/NewItem';
 import ChangeItem from './components/ChangeItem';
+import ViewOne from './components/ViewOne';
 
 
 
@@ -25,7 +26,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path = "/thriftshop/new" element = {<NewItem allItems = {allItems} setAllItems = {setAllItems}/>}/>
-        <Route path = "/thriftshop/:id" element = {<ChangeItem allItems = {allItems} setAllItems = {setAllItems}/>}/>
+        <Route path = "/thriftshop/:id/edit" element = {<ChangeItem allItems = {allItems} setAllItems = {setAllItems}/>}/>
+        <Route path = "/thriftshop/:id/" element = {<ViewOne allItems = {allItems} setAllItems = {setAllItems}/>}/>
+
       </Routes>      
     </BrowserRouter>
   )

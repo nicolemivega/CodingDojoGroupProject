@@ -57,14 +57,9 @@ const NewItem = (props) => {
                 </div>
                 <div>
                     <label>Size</label>
-                    <select value = {newItem.size} onChange= {e => setNewItem
-                    ({...newItem, size: e.target.value})}>
-                        <option value = "select">Select</option>
-                        <option value = "small">Small</option>
-                        <option value = "medium">Medium</option>
-                        <option value = "large">Large</option>
-                        <option value = "xlarge">X-Large</option>
-                    </select> 
+                    <input type = "text" value = {newItem.size} onChange= {e => setNewItem
+                    ({...newItem, size: e.target.value})}/>
+                        
                 </div>
                 <div>
                     <label>Condition</label>
