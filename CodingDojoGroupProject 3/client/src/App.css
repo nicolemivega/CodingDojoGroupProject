@@ -1,0 +1,235 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Styling */
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  background-color:rgba(230, 226, 226, 0.5) ;
+  color: #0c0c0c;
+  padding: 5px;
+  font-family: "Comic Sans MS", cursive;
+} 
+
+.topnav {
+  background-color:rgba(230, 226, 226, 0.5) ;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-shadow: #020202;
+  border-radius:15px 15px 15px 15px;  
+}
+
+
+.topnav a {
+  top: 0;
+  float: left;
+  color: #020202;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgba(230, 226, 226, 0.7);
+  font-family: "Comic Sans MS", cursive;
+}
+
+
+.topnav a:hover {
+  background-color: #b4b2b2;
+  color: black;
+}
+
+.body {
+  background-image: url(../pictures/OutfitsonRack.jpg);
+  background-position: center;
+  background-size:contain;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+
+.title {
+  width: 1000px;
+  background-color:rgba(242, 165, 132, 0.858) ;
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+
+}
+
+.main {
+  background-color:rgba(230, 226, 226, 0.7) ;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+  justify-items: center;
+  color: #000;
+
+}
+
+table {
+  width: 1000px;
+  border-collapse: collapse;
+  color: #000000;
+}
+
+table td, th {
+  border: 3px solid #343434;
+  padding: 8px;
+}
+.dotted-border {
+  border: 3px dotted #000;
+  padding: 100px;
+}
+
+.viewbody {
+  background-image: url(../pictures/GirlInOutfit.jpg);
+  background-position: center;
+  background-size:contain;
+  font-family: "Comic Sans MS", cursive;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+.viewtitle {
+  width: 1000px;
+  background-color:rgba(104, 164, 232, 0.858) ;
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+
+}
+.newbody {
+  background-image: url(../pictures/jeans.jpg);
+  background-position: center;
+  background-size:cover;
+  font-family: "Comic Sans MS", cursive;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+  color: #000000;
+
+}
+.newtitle {
+  width: 1000px;
+  background-color:rgba(104, 164, 232, 0.858) ;
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 15px 15px; 
+  justify-content: center;
+}
+
+form {
+  background-color:rgba(96, 94, 94, 0.874) ;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5px;
+  justify-items: center;
+  color: #000;
+
+}
+.updatebody {
+  background-image: url(../pictures/menJackets.jpg);
+  background-position: center;
+  background-size:contain;
+  font-family: "Comic Sans MS", cursive;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+.welcbody {
+  background-image: url(../pictures/pexels-ron-lach-8400603.jpg);
+  background-position: center;
+  background-size:contain;
+  font-family: "Comic Sans MS", cursive;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-right: 180px;
+
+}
+.welctitle {
+  width: 1000px;
+  background-color:rgba(242, 160, 124, 0.858) ;
+  color: #000000;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0px 10px 0px;
+  border-radius:15px 15px 0px 0px; 
+  justify-content: center;
+
+}
+
